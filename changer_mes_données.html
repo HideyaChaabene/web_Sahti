@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHTI</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header>
+    <img src="../img/logo.png" alt="Your Logo" class="logo">
+</header>
+
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="inscription-pat.html">Inscription</a>
+  <a href="connexion-pat.html">Prendre un rendez-vous</a>
+  <a href="../pages/qui.html">Qui sommes-nous</a>
+  <a href="contact.html">Contactez nous</a>
+</nav>
+  <form action="patient.html">
+    <fieldset>
+        <legend>Changer mes données</legend>
+         
+        <div class="inp">
+        <p class="p2">Merci de saisir vos informations</p>
+        <div class="sexe">
+        <input type="radio" name="sexe" id="" checked>Homme
+        <input type="radio" name="sexe" id="">Femme
+        </div>
+        <input type="text"  id="nom" placeholder="Nom*" value="Rathouane" required>
+        <input type="text" placeholder="Prénom*" id="prenom*" value="Emna" required>
+        
+        <input type="tel" name="telp" id="telp" maxlength="8" placeholder="Numéro de téléphone*" value="55712353" required>
+        <input type="email" name="mail" id="mail" placeholder="Email*" value="emnarathouane55@gmail.Com" required>
+        <input type="text" name="" id="" placeholder="Governorat*" value="Ben Arous">
+        
+        <input type="date" name="" id="" >
+        
+        <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;">Informations Sanitaires</h3><br>
+       
+        <div class="vaccin">
+        <p>Vacciné Covid ?</p> 
+        <div>
+        <input type="radio" name="oui" id="oui" checked>Oui
+        <input type="radio" name="oui" id="non">Non
+        </div></div>
+        <div class="vaccin">
+          <p>Des Maladies Chroniques ?</p>
+          <div>
+          <input type="radio" name="oui1" id="oui">Oui
+          <input type="radio" name="oui1" id="non" checked>Non
+          <input type="text" name="" id="" placeholder="Si oui veuillez remplisser">
+          </div>
+        </div>
+        <div class="vaccin">
+          <p>Des Allergies ?</p>
+          <div>
+          <input type="radio" name="oui2" id="oui" checked>Oui
+          <input type="radio" name="oui2" id="non">Non
+          <input type="text" name="" id="" placeholder="Si oui veuillez remplisser" value="allergie aupoliare, allergie à la poussière, allergie à la pénéciline">
+        </div>
+        </div>
+        <div class="vaccin">
+          <p>Médecin de famille ?</p>
+          <div>
+          <input type="radio" name="oui3" id="oui" checked>Oui
+          <input type="radio" name="oui3" id="non">Non
+          <input type="tel" name="" id="tel2" placeholder="Son numéro de téléphone" value="75656656" maxlength="8">
+        </div>
+        </div>
+        <div class="vaccin">
+        <p> CNAM ou CNSS ?</p> 
+        <div>
+        <input type="radio" name="oui4" id="oui" checked>Oui
+        <input type="radio" name="oui4" id="non">Non
+        </div></div> 
+        <div class="vaccin">
+          <p style="margin-top: 70px;"> Autre Informations supplémentaires</p> 
+          <textarea name="" id="" cols="30" rows="10" placeholder="Veuillez ajouter des informations"></textarea>
+          </div> 
+          <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;"></h3><br>
+       
+         <input type="password" name="" id="" placeholder="Mot de passe*" required ><br>
+         <input type="checkbox" name="" id="">Je confirme les informations ci dessus.
+        <button type="submit" class="soumettre">Soumettre</button>
+        </div>
+      </fieldset>
+      
+  </form>
+  <footer >
+    <div class="foot">
+        <div class="titre">
+            <img src="../img/logo.png" alt="">
+           <P>Prenez vos rendez-vous médicaux <br>
+               en ligne facilement, rapidement et <br>
+               gratuitement 7j/7j - 24h/24h
+            </P>
+        </div>
+        <div class="qui">
+            <h1>Qui Sommes Nous</h1>
+            <br>
+            <p>L’annuaire médical en ligne qui facilite la communication <br> 
+              entre les citoyens et les professionnels de santé et leurs <br>
+              permet de prendre un rendez-vous à distance, avec des mise <br>
+              a jours garanties.</p>
+        </div>
+
+        <div class="contact">
+            <h1>Contactez Nous</h1>
+            <div class="phone">
+              <div class="img"><img src="../img/phone.png" alt="E-mail" width="25px" height="25px">
+              </div>                <p s>+21611111111</p>
+            </div>
+            <div class="mail">
+              
+              <div class="img"><img src="../img/mail.png" alt="E-mail" width="25px" height="25px">
+              </div>
+              <p><A href="mailto:contact@sahti.tn" style="color: white ;text-decoration: none;">contact@sahti.tn</A></p>
+            </div>
+
+          </div>
+    </div>
+    <div class="droit">
+         <p>All rights reserved © 2023 SAHTI <br>
+            Designed and Developed by  WHT TEAM </p>
+    </div>
+   </footer>
+</body>
+</html>

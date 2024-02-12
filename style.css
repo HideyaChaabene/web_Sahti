@@ -1,0 +1,91 @@
+.btn {
+    background-color:rgb(66, 127, 224);
+    border:none;
+    color:white; 
+    text-decoration: none;
+    font-family: 'Pacifico' cursive;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+
+
+}
+.btn1:hover{
+    background-color:rgb(0, 88, 229) ;
+}
+
+.background{
+    background-image: url(Screenshot2023-12-19001111.png);
+    width: 100%;
+    height: 100%;
+    position: absolute ;
+    filter: blur(20px);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-image:url(couverture.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);  
+}
+
+.fieldset{
+    box-shadow: 0 0 5px 5px rgba(165, 181, 225, 0.5);
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    width: 32%;
+    height: 520px;
+    padding: 60px 30px 20px 30px ;
+    background-color: aliceblue;
+}  
+.input-box{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 45px 0 20px;
+    margin: 10px;
+    background-color: white;
+    outline: none; 
+}
+
+.input-box:focus, .input-box:valid {
+    top: 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.rdv-reserve{
+    box-shadow: 0 0 5px 5px rgba(165, 181, 225, 0.5);
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    line-height: 1.8 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 20px 70px 20px 70px ;
+    background-color: aliceblue;
+
+}

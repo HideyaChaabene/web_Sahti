@@ -1,0 +1,123 @@
+body{
+    background-color: #f3f5f9;
+ }
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1c79f3;
+  overflow-x: hidden;
+  padding-top: 20px ;
+
+}
+  
+
+.sidenav ul li{
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }  
+
+.sidenav a {
+    padding: 6px 8px 6px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #bdb8d7;;
+    display: block;
+  } 
+
+.sidenav ul li:hover  {
+    color: #1c79f3;
+    background-color: #003e90
+  }
+
+.sidenav ul li:hover a{
+    color: white;
+    }
+
+.sidenav ul li a img {
+    padding-right: 15px;
+}
+  
+ .main {
+    margin-left: 300px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+    
+}
+
+.btn {
+    background-color: #1c79f3;
+    border:none;
+    color:white; 
+    text-decoration: none;
+    font-family: 'Pacifico' cursive;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    float:inline-end;
+    margin: -60px 5px 0 0;
+    
+
+}
+
+.btn1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    background-color: white;
+    color: #e65200;
+}
+
+.pdp {
+    width: 200px; 
+    height: 200px; 
+    padding-right: 20px;
+    float: inline-start;
+    margin-top: -50px;
+    
+}
+.inf {
+    line-height: 2px;
+    margin: 100px 0 100px 220px ;
+}
+.ntf {
+    border-radius: 20px;
+    background-color: #004AAD;
+    padding: 20px 0px  20px 0px ;
+    text-align: center;
+    color: WHITE;
+    
+
+}
+.ntfd {
+    border-radius: 8px;
+    background-color: #bdd5f4;
+    padding: 10px 0px  10px 0px ;
+    text-align: center;
+    
+
+}
+
+.rdv :nth-child(even) {
+    background-color: #bdd5f4;
+}
+
+.dr {
+    background-color: #bdd5f4;
+    box-shadow:0 0 5px 5px rgba(165, 181, 225, 0.5) ;
+    width: 30%;
+    height: 300px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+   
+
+
+}
+

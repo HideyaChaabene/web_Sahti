@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <form  action="rdv-reserve.html" class="fieldset">
+        <p style="text-align: center;"><b>Prenez un rendez-vous</b></p> 
+        <hr style="margin: 5px 30px 30px 30px">
+        Localisation:<input class="input-box" type="text" placeholder="Localisation*" required><br> 
+        Spécialité:<select class="input-box" size="1" name="lst1" value="Spécialité*" required >
+            <option value="sp0" disabled selected invalid style="color: gray;" > Spécialité</option>
+            <option value="sp1"> médecin de famille</option> 
+            <option value="sp2"> Dentiste</option> 
+            <option value="sp3"> Dermatologue</option> 
+           </select> <br> 
+        Docteur: <select class="input-box" size="1" name="lst2" value="Docteur*" required>
+            <option value ="doc0" selected disabled style="color: gray;"> Docteur</optgroup>     
+            <option value="doc1"> Dr Mike Vershavski</option> 
+            <option value="doc2"> Dr Shereene Idriss</option> 
+            <option value="doc3"> Dr Rayen Hidaya</option> 
+            </select> <br> 
+        Date:<input class="input-box" type="date" name="rv" required> <br> 
+        Horaire:<input class="input-box" type="time" name="horaire" required> <br> 
+        <input type="submit" value="réserver" name="rdv" class="btn btn1" style="margin: 5px 35% 0 35%; ">
+    
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande</title>
+    <link rel="stylesheet" href="styletay.css">
+    <link rel="icon" href="images/love_and_joy__5_-removebg-preview 2.png">
+</head>
+<body>
+    <header>
+        <img src="images/log 1.png" alt="Your Logo" class="logo">
+        <div><h1>S'INSCRIRE</h1>
+        <h4>REMPLISSEZ CE FORMULAIRE POUR CRÉER VOTRE FICHE PRATICIEN</h4></div>
+    </header>
+    
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="inscription-pat.html">Inscription</a>
+        <a href="connexion-pat.html">Prendre un rendez-vous</a>
+        <a href="../pages/qui.html">Qui sommes-nous</a>
+        <a href="contact.html">Contactez nous</a>
+        <button class="login-button"><a href="../pages/choiwConx.html">Se connecter</a></button>
+    </nav>
+    
+      <form action="demande.html" >
+     <fieldset>
+        <legend>Inscription Fiche Praticien</legend>
+        <div class="inp">
+          <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto -30px auto;text-align: center;">Informations Personnelles</h3><br>      
+          <div class="sexe">
+          <input type="radio" name="sexe" id="">Homme
+          <input type="radio" name="sexe" id="">Femme
+          </div>
+          <input type="text"  id="nom" placeholder="Nom*" required>
+          <input type="text" placeholder="Prénom*" id="prenom*" required>
+        
+          <input type="tel" name="telp" id="telp" maxlength="8" placeholder="Numéro de téléphone*" required>
+          <input type="email" name="mail" id="mail" placeholder="Email*" required>
+          <input type="text" name="" id="" placeholder="Governorat*">
+          
+          <input type="date" name="" id="">
+          <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;text-align: center;">Apptitude Professionnelle</h3><br>
+          <div class="prof">
+            <p>Pour des raisons de sécurité et afin de nous assurer de la pertinence des données sur notre plateforme, nous vous prions de nous envoyer une photo de votre carte de visite ou bien votre permis d'exercice.</p> 
+            <label for="file1">Parcourir</label>
+                <input type="file" name="" id="file1">
+          </div>
+                <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;text-align: center;">Coordonnés</h3><br>
+                <input type="text"  id="nom" placeholder="Délégation*" required>
+                <input type="text" placeholder="Adresse(rue,ètage,centre...)*" id="" required>
+                <input type="tel" name="telp" id="telp" maxlength="8" placeholder="Tel fixe" >
+                <input type="tel" name="telp" id="telp" maxlength="8" placeholder="Tel fixe" >
+                <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;text-align: center;">Spécialités Et Formations</h3><br>
+                <input type="text" name="" id="" placeholder="Spécialité" required>
+                <input type="text" name="" id="" placeholder="Autes spécialités">
+                <textarea name="" id="" cols="30" rows="10"style="width:80%" placeholder="Diplomes et formations"></textarea>
+                <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;text-align: center;">Informations Pratiques</h3><br>
+                <div class="cnam">
+                    <p>Convionné avec le CNAM</p>
+                    <div style="width: 30%;">
+                        <input type="radio" name="oui3" id="oui">Oui
+                        <input type="radio" name="oui3" id="non">Non
+                    </div> 
+                    <img src="images/téléchargement.jpg" alt="" width="50px"> 
+                </div>
+                  <table>
+                   <caption>Horaires d'ouverture</caption>
+             <tr>
+                <th>Lundi</th>
+                <td><input type="radio" name="s1" id="">Séance unique
+                    <input type="radio" name="s1" id="">Double séance
+                    <input type="radio" name="s1" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Mardi</th>
+                <td><input type="radio" name="s2" id="">Séance unique
+                    <input type="radio" name="s2" id="">Double séance
+                    <input type="radio" name="s2" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Mercredi</th>
+                <td><input type="radio" name="s3" id="">Séance unique
+                    <input type="radio" name="s3" id="">Double séance
+                    <input type="radio" name="s3" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Jeudi</th>
+                <td><input type="radio" name="s4" id="">Séance unique
+                    <input type="radio" name="s4" id="">Double séance
+                    <input type="radio" name="s4" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Vendredi</th>
+                <td><input type="radio" name="s7" id="">Séance unique
+                    <input type="radio" name="s7" id="">Double séance
+                    <input type="radio" name="s7" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Samedi</th>
+                <td><input type="radio" name="s5" id="">Séance unique
+                    <input type="radio" name="s5" id="">Double séance
+                    <input type="radio" name="s5" id="">Fermé</td>
+             </tr>
+             <tr>
+                <th>Dimanche</th>
+                <td><input type="radio" name="s6" id="">Séance unique
+                    <input type="radio" name="s6" id="">Double séance
+                    <input type="radio" name="s6" id="">Fermé</td>
+             </tr>
+                  </table>
+                  <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;text-align: center;">Photos</h3><br>
+                <label for="photo" style="padding: 1%;">Choisissez votre photo d'identité</label>
+                <input type="file" name="" id="photo">
+                <h3 style="font-weight: 500;border-bottom: 2px solid rgba(68, 92, 247, 0.2);margin: 40px auto 10px auto;"></h3><br>
+       
+                <input type="password" name="" id="" placeholder="Mot de passe*">
+                <input type="password" name="" id="" placeholder="Confirme mot de passe">
+                <input type="checkbox" name="" id="">Je confirme les informations ci dessus.
+               <button type="submit" class="soumettre" formaction="demandeenvoyé.html">Soumettre ma demande</button>
+               
+        </fieldset>
+      </form>
+      <footer >
+        <div class="foot">
+            <div class="titre">
+                <img src="../img/logo.png" alt="">
+               <P>Prenez vos rendez-vous médicaux <br>
+                   en ligne facilement, rapidement et <br>
+                   gratuitement 7j/7j - 24h/24h
+                </P>
+            </div>
+            <div class="qui">
+                <h1>Qui Sommes Nous</h1>
+                <br>
+                <p>L’annuaire médical en ligne qui facilite la communication <br> 
+                  entre les citoyens et les professionnels de santé et leurs <br>
+                  permet de prendre un rendez-vous à distance, avec des mise <br>
+                  a jours garanties.</p>
+            </div>
+    
+            <div class="contact">
+                <h1>Contactez Nous</h1>
+                <div class="phone">
+                  <div class="img"><img src="../img/phone.png" alt="E-mail" width="25px" height="25px">
+                  </div>                <p s>+21611111111</p>
+                </div>
+                <div class="mail">
+                  
+                  <div class="img"><img src="../img/mail.png" alt="E-mail" width="25px" height="25px">
+                  </div>
+                  <p><A href="mailto:contact@sahti.tn" style="color: white ;text-decoration: none;">contact@sahti.tn</A></p>
+                </div>
+    
+              </div>
+        </div>
+        <div class="droit">
+             <p>All rights reserved © 2023 SAHTI <br>
+                Designed and Developed by  WHT TEAM </p>
+        </div>
+       </footer>
+</body>
+</html>
+
+
